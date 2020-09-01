@@ -70,7 +70,7 @@ We have several major departures from the papers:
 
 
 In addition, we have a totally different approach for mapping a string to its
-canonical representative, which will be explaine below inline. The general gist
+canonical representative, which will be explained below inline. The general gist
 is that our implementation is much more willing to make mistakes: It will often
 create a DFA that is demonstrably wrong, based on information that it already
 has, but where it is too expensive to discover that before it causes us to
