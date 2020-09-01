@@ -196,8 +196,7 @@ class LStar:
         counts = Counter()
 
         def equivalent(t):
-            """Checks whether ``string`` could possibly lead to state ``t``.
-            """
+            """Checks if ``string`` could possibly lead to state ``t``."""
             for e, expected in accumulated.items():
                 if self.member(t.label + e) != expected:
                     counts[e] += 1
